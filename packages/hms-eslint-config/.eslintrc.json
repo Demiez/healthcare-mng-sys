@@ -1,0 +1,41 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["tsconfig.json", "tsconfig.eslint.json"],
+    "sourceType": "module"
+  },
+  "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+
+  "rules": {
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "no-useless-constructor": "off",
+    "no-empty-function": ["error", { "allow": ["constructors"] }],
+    "max-len": ["warn", { "code": 130 }],
+    "@typescript-eslint/camelcase": "off",
+    "no-underscore-dangle": ["warn", { "allow": ["_id", "_created", "_updated"] }],
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "next", "vars": "local" }],
+    "no-undef": "off",
+    "quotes": ["warn", "double"],
+    "func-names": "off",
+    "no-param-reassign": ["warn", { "props": false }],
+    "space-before-function-paren": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "prettier/prettier": [
+      "off",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "@typescript-eslint/no-var-requires": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/ban-types": "warn"
+  },
+  "ignorePatterns": ["node_modules", "**/*.d.ts", "lib", "dist"]
+}

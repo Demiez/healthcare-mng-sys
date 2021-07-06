@@ -1,0 +1,23 @@
+{
+  "name": "@hms/eslint-config",
+  "version": "1.0",
+  "description": "HMS ESLint rules",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "",
+    "lint:fix": ""
+  },
+  "author": "dmytro.petrenko",
+  "license": "PRIVATE",
+  "private": true,
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-mocha": "*"
+  }
+}
