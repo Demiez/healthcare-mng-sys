@@ -1,5 +1,5 @@
 {
-  "name": "@hms/eslint-config",
+  "name": "@demiez/hms-eslint-config",
   "version": "1.0.0",
   "description": "HMS ESLint rules",
   "main": ".eslintrc.json",
