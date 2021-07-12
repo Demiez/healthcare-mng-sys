@@ -4,7 +4,6 @@
   "description": "HMS express error handler and exceptions",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "private": true,
   "scripts": {
     "build": "tsc -b",
     "clean": "rimraf ./lib ./tsconfig.tsbuildinfo",
