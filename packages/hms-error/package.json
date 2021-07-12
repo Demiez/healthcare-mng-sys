@@ -1,0 +1,22 @@
+{
+  "name": "@demiez/hms-error",
+  "version": "1.0.0",
+  "description": "HMS express error handler and exceptions",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf ./lib ./tsconfig.tsbuildinfo",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
+    "lint:fix": "yarn lint --fix"
+  },
+  "author": "Dmytro Petrenko",
+  "license": "ISC",
+  "peerDependencies": {
+    "@nestjs/common": "*",
+    "@nestjs/core": "*",
+    "reflect-metadata": "*",
+    "rxjs": "*"
+  }
+}

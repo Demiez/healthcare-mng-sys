@@ -1,0 +1,1 @@
+{"version":3,"file":"base-field.model.js","sourceRoot":"","sources":["../../../src/errors/responses/base-field.model.ts"],"names":[],"mappings":";;;AAAA,MAAsB,mBAAmB;CAIxC;AAJD,kDAIC","sourcesContent":["export abstract class BaseFieldErrorModel {\r\n  public abstract field: string;\r\n\r\n  public abstract errorCode: string;\r\n}\r\n"]}
