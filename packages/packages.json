@@ -1,0 +1,6 @@
+{
+  "packages": [
+    { "scope": "demiez", "name": "error" },
+    { "scope": "demiez", "name": "eslint-config" }
+  ]
+}
