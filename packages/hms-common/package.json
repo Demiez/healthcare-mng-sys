@@ -1,0 +1,20 @@
+{
+  "name": "@demiez/hms-common",
+  "version": "1.0.0",
+  "description": "Module for all shared data and methods",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf ./lib ./tsconfig.tsbuildinfo",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
+    "lint:fix": "yarn lint --fix"
+  },
+  "author": "Dmytro Petrenko",
+  "license": "ISC",
+  "peerDependencies": {
+    "mongo-uuid": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  }
+}
