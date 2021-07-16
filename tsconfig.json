@@ -17,6 +17,8 @@
     "inlineSources": true,
     "baseUrl": "./",
     "paths": {
+      "@demiez/hms-common": ["./packages/hms-common/src"],
+      "@demiez/hms-common/*": ["./packages/hms-common/src/*"],
       "@demiez/hms-error": ["./packages/hms-error/src"],
       "@demiez/hms-error/*": ["./packages/hms-error/src/*"],
       "@demiez/hms-eslint-config": ["./packages/hms-eslint-config"],
@@ -25,6 +27,9 @@
   },
   "exclude": ["node_modules", "dist", "lib"],
   "references": [
+    {
+      "path": "./packages/hms-common"
+    },
     {
       "path": "./packages/hms-error"
     }
